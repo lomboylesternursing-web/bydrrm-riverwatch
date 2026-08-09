@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T17:36:00+08:00",
+  "generatedAt": "2026-08-09T09:39:09.531849+00:00",
   "readings": [],
   "sources": [
     {
@@ -7,12 +7,32 @@
       "ok": true,
       "river_records": 0,
       "normalized_readings": 0,
+      "unmatched_records": [],
       "dams": [
-        {"dam":"Angat Dam","current_level":"158.13 meters","normal_level":"212.00 meters","spilling_level":"-","date":"08/07/2026"},
-        {"dam":"Bustos Dam","current_level":"15.92 meters","normal_level":"-","spilling_level":"17.70 meters","date":"08/07/2026"},
-        {"dam":"Ipo Dam","current_level":"100.33 meters","normal_level":"-","spilling_level":"101.00 meters","date":"08/07/2026"}
+        {
+          "dam": "Angat Dam",
+          "current_level": "158.13 meters",
+          "normal_level": "212.00 meters",
+          "spilling_level": "-",
+          "date": "08/07/2026"
+        },
+        {
+          "dam": "Bustos Dam",
+          "current_level": "15.92 meters",
+          "normal_level": "-",
+          "spilling_level": "17.70 meters",
+          "date": "08/07/2026"
+        },
+        {
+          "dam": "Ipo Dam",
+          "current_level": "100.33 meters",
+          "normal_level": "-",
+          "spilling_level": "101.00 meters",
+          "date": "08/07/2026"
+        }
       ],
-      "message": "Public PDRRMO River Status Stations currently reports No Record."
+      "fetched_at": "2026-08-09T09:39:09.531779+00:00",
+      "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
       "name": "DOST-ASTI PhilSensors",
