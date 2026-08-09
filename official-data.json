@@ -1,5 +1,5 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-08-09T17:36:00+08:00",
   "readings": [],
   "sources": [
     {
@@ -7,8 +7,12 @@
       "ok": true,
       "river_records": 0,
       "normalized_readings": 0,
-      "dams": [],
-      "message": "Scheduled collector installed; awaiting the next government-site sync."
+      "dams": [
+        {"dam":"Angat Dam","current_level":"158.13 meters","normal_level":"212.00 meters","spilling_level":"-","date":"08/07/2026"},
+        {"dam":"Bustos Dam","current_level":"15.92 meters","normal_level":"-","spilling_level":"17.70 meters","date":"08/07/2026"},
+        {"dam":"Ipo Dam","current_level":"100.33 meters","normal_level":"-","spilling_level":"101.00 meters","date":"08/07/2026"}
+      ],
+      "message": "Public PDRRMO River Status Stations currently reports No Record."
     },
     {
       "name": "DOST-ASTI PhilSensors",
