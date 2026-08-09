@@ -1,0 +1,37 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOperator() {
+      return signedIn() && exists(/databases/$(database)/documents/operators/$(request.auth.uid));
+    }
+
+    // Public situational-awareness readings. Anyone may read, but only
+    // explicitly approved operator UIDs may create/update/delete records.
+    match /riverwatch_readings/{readingId} {
+      allow read: if true;
+      allow create, update, delete: if isOperator();
+    }
+
+    // Audit details may include verifier names/evidence references and are
+    // intentionally restricted to approved operators.
+    match /riverwatch_audit/{readingId} {
+      allow read, create, update, delete: if isOperator();
+    }
+
+    // Operators are provisioned manually by an administrator in Firebase.
+    // A signed-in user may only check whether their own operator record exists.
+    match /operators/{uid} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow list: if false;
+      allow create, update, delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
