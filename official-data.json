@@ -1,0 +1,21 @@
+{
+  "generatedAt": null,
+  "readings": [],
+  "sources": [
+    {
+      "name": "Bulacan PDRRMO",
+      "ok": true,
+      "river_records": 0,
+      "normalized_readings": 0,
+      "dams": [],
+      "message": "Scheduled collector installed; awaiting the next government-site sync."
+    },
+    {
+      "name": "DOST-ASTI PhilSensors",
+      "ok": true,
+      "configured": false,
+      "readings": 0,
+      "message": "Official API/data-sharing connector pending."
+    }
+  ]
+}
