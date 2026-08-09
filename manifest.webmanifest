@@ -1,0 +1,13 @@
+{
+  "name": "BYDRRM RiverWatch — Bulacan",
+  "short_name": "RiverWatch",
+  "description": "Bulacan river and bridge water-level monitoring and advisory studio.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "icons": [
+    {"src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
