@@ -14,7 +14,7 @@ html,body{margin:0;background:#07111f;color:#edf6ff;font-family:system-ui,sans-s
 <script>
 (async()=>{
   try{
-    const names=["part01.b64","part02.b64","part03.b64","part04.b64","part05.b64","part06.b64","part07.b64"];
+    const names=["part01.b64","part02.b64","part03a.b64","part03b.b64","part04a.b64","part04b1.b64","part04b2.b64","part05.b64","part06.b64","part07.b64"];
     const texts=await Promise.all(names.map(n=>fetch("./"+n+"?v=4",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(n+" returned "+r.status);return r.text()})));
     const arrays=texts.map(t=>{
       const bin=atob(t.trim());
