@@ -1,37 +1,113 @@
 {
-  "generatedAt": "2026-08-11T23:56:54.775650+00:00",
-  "readings": [],
+  "generatedAt": "2026-08-12T01:26:45.017303+00:00",
+  "readings": [
+    {
+      "stationId": 4,
+      "stationName": "Alejo Bridge, Bustos",
+      "level": 1.5,
+      "status": "NORMAL",
+      "time": "08/12/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 18,
+      "stationName": "Fabian Cadiz Bridge, City of SJDM",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "08/12/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    }
+  ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
       "ok": true,
-      "river_records": 0,
-      "normalized_readings": 0,
-      "unmatched_records": [],
+      "river_records": 6,
+      "normalized_readings": 2,
+      "unmatched_records": [
+        {
+          "stationName": "Bulusan River Bank",
+          "row": {
+            "station": "Bulusan River Bank",
+            "actual_level": "New alerts 0.95 meter",
+            "alert": "0.30 meter",
+            "alarm": "0.60 meter",
+            "critical": "0.90 meter",
+            "date": "08/12/2026"
+          }
+        },
+        {
+          "stationName": "Meyto Bridge, Meyto, Calumpit, Bulacan",
+          "row": {
+            "station": "Meyto Bridge, Meyto, Calumpit, Bulacan",
+            "actual_level": "New alerts 1.65 meters",
+            "alert": "1.0 meter",
+            "alarm": "2.0 meters",
+            "critical": "3.0 meters",
+            "date": "08/12/2026"
+          }
+        },
+        {
+          "stationName": "Sulipan Bridge PAGASA",
+          "row": {
+            "station": "Sulipan Bridge PAGASA",
+            "actual_level": "New alerts 2.90 meters",
+            "alert": "2.60 meters",
+            "alarm": "3.20 meters",
+            "critical": "3.80 meters",
+            "date": "08/12/2026"
+          }
+        },
+        {
+          "stationName": "Sulipan Bridge, Apalit, Pampanga",
+          "row": {
+            "station": "Sulipan Bridge, Apalit, Pampanga",
+            "actual_level": "New alerts 2.0 meters",
+            "alert": "1.0 meter",
+            "alarm": "2.0 meters",
+            "critical": "3.0 meters",
+            "date": "08/12/2026"
+          }
+        }
+      ],
       "dams": [
         {
           "dam": "Angat Dam",
-          "current_level": "174.98 meters",
+          "current_level": "177.10 meters",
           "normal_level": "212.00 meters",
           "spilling_level": "-",
-          "date": "08/11/2026"
+          "date": "08/12/2026"
         },
         {
           "dam": "Bustos Dam",
-          "current_level": "16.10 meters",
+          "current_level": "16.04 meters",
           "normal_level": "-",
           "spilling_level": "17.70 meters",
-          "date": "08/11/2026"
+          "date": "08/12/2026"
         },
         {
           "dam": "Ipo Dam",
-          "current_level": "100.63 meters",
+          "current_level": "100.74 meters",
           "normal_level": "-",
           "spilling_level": "101.00 meters",
-          "date": "08/11/2026"
+          "date": "08/12/2026"
         }
       ],
-      "fetched_at": "2026-08-11T23:56:54.775574+00:00",
+      "fetched_at": "2026-08-12T01:26:45.017063+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
