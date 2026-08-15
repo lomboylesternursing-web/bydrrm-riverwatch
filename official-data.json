@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:23:33.407266+00:00",
+  "generatedAt": "2026-08-15T04:01:36.351222+00:00",
   "readings": [],
   "sources": [
     {
@@ -31,7 +31,7 @@
           "date": "08/12/2026"
         }
       ],
-      "fetched_at": "2026-08-15T03:23:33.407209+00:00",
+      "fetched_at": "2026-08-15T04:01:36.351165+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
