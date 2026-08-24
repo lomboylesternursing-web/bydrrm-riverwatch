@@ -1,13 +1,63 @@
 {
-  "generatedAt": "2026-08-24T00:59:23.936950+00:00",
-  "readings": [],
+  "generatedAt": "2026-08-24T02:22:47.736726+00:00",
+  "readings": [
+    {
+      "stationId": 10,
+      "stationName": "Caniogan River, Calumpit",
+      "level": 2.5,
+      "status": "CRITICAL",
+      "time": "08/24/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.2,
+        "alarm": 1.8,
+        "critical": 2.3
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    }
+  ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
       "ok": true,
-      "river_records": 0,
-      "normalized_readings": 0,
-      "unmatched_records": [],
+      "river_records": 4,
+      "normalized_readings": 1,
+      "unmatched_records": [
+        {
+          "stationName": "Paralaya, Candaba, Pampanga",
+          "row": {
+            "station": "Paralaya, Candaba, Pampanga",
+            "actual_level": "New alerts 5.55 meters",
+            "alert": "3.50 meters",
+            "alarm": "4.50 meters",
+            "critical": "5.0 meters",
+            "date": "08/24/2026"
+          }
+        },
+        {
+          "stationName": "San Agustin Bridge, Arayat, Pampanga",
+          "row": {
+            "station": "San Agustin Bridge, Arayat, Pampanga",
+            "actual_level": "New alerts 7.45 meters",
+            "alert": "5.0 meters",
+            "alarm": "6.0 meters",
+            "critical": "8.50 meters",
+            "date": "08/24/2026"
+          }
+        },
+        {
+          "stationName": "Sulipan Bridge PAGASA",
+          "row": {
+            "station": "Sulipan Bridge PAGASA",
+            "actual_level": "New alerts 3.49 meters",
+            "alert": "2.60 meters",
+            "alarm": "3.20 meters",
+            "critical": "3.80 meters",
+            "date": "08/24/2026"
+          }
+        }
+      ],
       "dams": [
         {
           "dam": "Angat Dam",
@@ -31,7 +81,7 @@
           "date": "08/20/2026"
         }
       ],
-      "fetched_at": "2026-08-24T00:59:23.936890+00:00",
+      "fetched_at": "2026-08-24T02:22:47.736569+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
