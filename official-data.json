@@ -1,11 +1,88 @@
 {
-  "generatedAt": "2026-08-24T10:51:30.435113+00:00",
-  "readings": [],
+  "generatedAt": "2026-08-24T11:18:22.382001+00:00",
+  "readings": [
+    {
+      "stationId": 10,
+      "stationName": "Caniogan River, Calumpit",
+      "level": 2.5,
+      "status": "CRITICAL",
+      "time": "08/24/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.2,
+        "alarm": 1.8,
+        "critical": 2.3
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    }
+  ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
-      "ok": false,
-      "error": "<urlopen error timed out>"
+      "ok": true,
+      "river_records": 4,
+      "normalized_readings": 1,
+      "unmatched_records": [
+        {
+          "stationName": "Paralaya, Candaba, Pampanga",
+          "row": {
+            "station": "Paralaya, Candaba, Pampanga",
+            "actual_level": "New alerts 5.55 meters",
+            "alert": "3.50 meters",
+            "alarm": "4.50 meters",
+            "critical": "5.0 meters",
+            "date": "08/24/2026"
+          }
+        },
+        {
+          "stationName": "San Agustin Bridge, Arayat, Pampanga",
+          "row": {
+            "station": "San Agustin Bridge, Arayat, Pampanga",
+            "actual_level": "New alerts 7.45 meters",
+            "alert": "5.0 meters",
+            "alarm": "6.0 meters",
+            "critical": "8.50 meters",
+            "date": "08/24/2026"
+          }
+        },
+        {
+          "stationName": "Sulipan Bridge PAGASA",
+          "row": {
+            "station": "Sulipan Bridge PAGASA",
+            "actual_level": "New alerts 3.49 meters",
+            "alert": "2.60 meters",
+            "alarm": "3.20 meters",
+            "critical": "3.80 meters",
+            "date": "08/24/2026"
+          }
+        }
+      ],
+      "dams": [
+        {
+          "dam": "Angat Dam",
+          "current_level": "188.75 meters",
+          "normal_level": "212.00 meters",
+          "spilling_level": "-",
+          "date": "08/20/2026"
+        },
+        {
+          "dam": "Bustos Dam",
+          "current_level": "16.10 meters",
+          "normal_level": "-",
+          "spilling_level": "17.70 meters",
+          "date": "08/20/2026"
+        },
+        {
+          "dam": "Ipo Dam",
+          "current_level": "101.00 meters",
+          "normal_level": "-",
+          "spilling_level": "101.00 meters",
+          "date": "08/20/2026"
+        }
+      ],
+      "fetched_at": "2026-08-24T11:18:22.381814+00:00",
+      "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
       "name": "DOST-ASTI PhilSensors",
