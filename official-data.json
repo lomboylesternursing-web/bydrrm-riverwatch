@@ -1,11 +1,122 @@
 {
-  "generatedAt": "2026-08-26T14:03:48.180154+00:00",
-  "readings": [],
+  "generatedAt": "2026-08-26T15:00:12.289496+00:00",
+  "readings": [
+    {
+      "stationId": 4,
+      "stationName": "Alejo Bridge, Bustos",
+      "level": 1.0,
+      "status": "NORMAL",
+      "time": "08/26/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 3.0,
+        "alarm": 4.0,
+        "critical": 5.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 10,
+      "stationName": "Caniogan River, Calumpit",
+      "level": 1.5,
+      "status": "WATCH",
+      "time": "08/26/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.2,
+        "alarm": 1.8,
+        "critical": 2.3
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 18,
+      "stationName": "Fabian Cadiz Bridge, City of SJDM",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "08/26/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 17,
+      "stationName": "Poblacion Bridge, Sta. Maria",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "08/26/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.5,
+        "alarm": 2.5,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    }
+  ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
-      "ok": false,
-      "error": "<urlopen error timed out>"
+      "ok": true,
+      "river_records": 6,
+      "normalized_readings": 4,
+      "unmatched_records": [
+        {
+          "stationName": "Paralaya, Candaba, Pampanga",
+          "row": {
+            "station": "Paralaya, Candaba, Pampanga",
+            "actual_level": "New alerts 5.50 meters",
+            "alert": "3.50 meters",
+            "alarm": "4.50 meters",
+            "critical": "5.0 meters",
+            "date": "08/26/2026"
+          }
+        },
+        {
+          "stationName": "Sulipan Bridge PAGASA",
+          "row": {
+            "station": "Sulipan Bridge PAGASA",
+            "actual_level": "New alerts 2.70 meters",
+            "alert": "2.60 meters",
+            "alarm": "3.20 meters",
+            "critical": "3.80 meters",
+            "date": "08/26/2026"
+          }
+        }
+      ],
+      "dams": [
+        {
+          "dam": "Angat Dam",
+          "current_level": "188.75 meters",
+          "normal_level": "212.00 meters",
+          "spilling_level": "-",
+          "date": "08/20/2026"
+        },
+        {
+          "dam": "Bustos Dam",
+          "current_level": "16.10 meters",
+          "normal_level": "-",
+          "spilling_level": "17.70 meters",
+          "date": "08/20/2026"
+        },
+        {
+          "dam": "Ipo Dam",
+          "current_level": "101.00 meters",
+          "normal_level": "-",
+          "spilling_level": "101.00 meters",
+          "date": "08/20/2026"
+        }
+      ],
+      "fetched_at": "2026-08-26T15:00:12.289243+00:00",
+      "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
       "name": "DOST-ASTI PhilSensors",
