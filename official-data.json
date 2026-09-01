@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:55:02.651070+00:00",
+  "generatedAt": "2026-09-01T06:59:29.702843+00:00",
   "readings": [
     {
       "stationId": 4,
@@ -30,14 +30,44 @@
         "critical": 2.3
       },
       "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 18,
+      "stationName": "Fabian Cadiz Bridge, City of SJDM",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "09/01/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 17,
+      "stationName": "Poblacion Bridge, Sta. Maria",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "09/01/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.5,
+        "alarm": 2.5,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
     }
   ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
       "ok": true,
-      "river_records": 6,
-      "normalized_readings": 2,
+      "river_records": 9,
+      "normalized_readings": 4,
       "unmatched_records": [
         {
           "stationName": "Meyto Bridge, Meyto, Calumpit, Bulacan",
@@ -69,6 +99,17 @@
             "alert": "5.0 meters",
             "alarm": "6.0 meters",
             "critical": "8.50 meters",
+            "date": "09/01/2026"
+          }
+        },
+        {
+          "stationName": "San Miguel River, Calumpit, Bulacan",
+          "row": {
+            "station": "San Miguel River, Calumpit, Bulacan",
+            "actual_level": "New alerts 3.50 meters",
+            "alert": "1.0 meter",
+            "alarm": "2.0 meters",
+            "critical": "3.0 meters",
             "date": "09/01/2026"
           }
         },
@@ -107,7 +148,7 @@
           "date": "09/01/2026"
         }
       ],
-      "fetched_at": "2026-09-01T01:55:02.650768+00:00",
+      "fetched_at": "2026-09-01T06:59:29.702617+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
