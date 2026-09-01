@@ -1,130 +1,13 @@
 {
-  "generatedAt": "2026-09-01T12:24:55.222421+00:00",
-  "readings": [
-    {
-      "stationId": 4,
-      "stationName": "Alejo Bridge, Bustos",
-      "level": 1.5,
-      "status": "NORMAL",
-      "time": "09/01/2026",
-      "observationPrecision": "date",
-      "source": "Bulacan PDRRMO",
-      "officialThresholds": {
-        "alert": 2.0,
-        "alarm": 3.0,
-        "critical": 4.0
-      },
-      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
-    },
-    {
-      "stationId": 10,
-      "stationName": "Caniogan River, Calumpit",
-      "level": 3.2,
-      "status": "CRITICAL",
-      "time": "09/01/2026",
-      "observationPrecision": "date",
-      "source": "Bulacan PDRRMO",
-      "officialThresholds": {
-        "alert": 1.2,
-        "alarm": 1.8,
-        "critical": 2.3
-      },
-      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
-    },
-    {
-      "stationId": 18,
-      "stationName": "Fabian Cadiz Bridge, City of SJDM",
-      "level": 0.0,
-      "status": "NORMAL",
-      "time": "09/01/2026",
-      "observationPrecision": "date",
-      "source": "Bulacan PDRRMO",
-      "officialThresholds": {
-        "alert": 2.0,
-        "alarm": 3.0,
-        "critical": 4.0
-      },
-      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
-    },
-    {
-      "stationId": 17,
-      "stationName": "Poblacion Bridge, Sta. Maria",
-      "level": 0.0,
-      "status": "NORMAL",
-      "time": "09/01/2026",
-      "observationPrecision": "date",
-      "source": "Bulacan PDRRMO",
-      "officialThresholds": {
-        "alert": 1.5,
-        "alarm": 2.5,
-        "critical": 4.0
-      },
-      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
-    }
-  ],
+  "generatedAt": "2026-09-01T16:47:44.411101+00:00",
+  "readings": [],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
       "ok": true,
-      "river_records": 9,
-      "normalized_readings": 4,
-      "unmatched_records": [
-        {
-          "stationName": "Meyto Bridge, Meyto, Calumpit, Bulacan",
-          "row": {
-            "station": "Meyto Bridge, Meyto, Calumpit, Bulacan",
-            "actual_level": "New alerts 2.95 meters",
-            "alert": "1.0 meter",
-            "alarm": "2.0 meters",
-            "critical": "3.0 meters",
-            "date": "09/01/2026"
-          }
-        },
-        {
-          "stationName": "Paralaya, Candaba, Pampanga",
-          "row": {
-            "station": "Paralaya, Candaba, Pampanga",
-            "actual_level": "New alerts 6.25 meters",
-            "alert": "3.50 meters",
-            "alarm": "4.50 meters",
-            "critical": "5.0 meters",
-            "date": "09/01/2026"
-          }
-        },
-        {
-          "stationName": "San Agustin Bridge, Arayat, Pampanga",
-          "row": {
-            "station": "San Agustin Bridge, Arayat, Pampanga",
-            "actual_level": "New alerts 8.75 meters",
-            "alert": "5.0 meters",
-            "alarm": "6.0 meters",
-            "critical": "8.50 meters",
-            "date": "09/01/2026"
-          }
-        },
-        {
-          "stationName": "San Miguel River, Calumpit, Bulacan",
-          "row": {
-            "station": "San Miguel River, Calumpit, Bulacan",
-            "actual_level": "New alerts 3.50 meters",
-            "alert": "1.0 meter",
-            "alarm": "2.0 meters",
-            "critical": "3.0 meters",
-            "date": "09/01/2026"
-          }
-        },
-        {
-          "stationName": "Sulipan Bridge PAGASA",
-          "row": {
-            "station": "Sulipan Bridge PAGASA",
-            "actual_level": "New alerts 4.33 meters",
-            "alert": "2.60 meters",
-            "alarm": "3.20 meters",
-            "critical": "3.80 meters",
-            "date": "09/01/2026"
-          }
-        }
-      ],
+      "river_records": 0,
+      "normalized_readings": 0,
+      "unmatched_records": [],
       "dams": [
         {
           "dam": "Angat Dam",
@@ -148,7 +31,7 @@
           "date": "09/01/2026"
         }
       ],
-      "fetched_at": "2026-09-01T12:24:55.222135+00:00",
+      "fetched_at": "2026-09-01T16:47:44.411037+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
