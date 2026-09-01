@@ -1,37 +1,113 @@
 {
-  "generatedAt": "2026-08-31T23:23:19.949459+00:00",
-  "readings": [],
+  "generatedAt": "2026-09-01T01:55:02.651070+00:00",
+  "readings": [
+    {
+      "stationId": 4,
+      "stationName": "Alejo Bridge, Bustos",
+      "level": 1.5,
+      "status": "NORMAL",
+      "time": "09/01/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 10,
+      "stationName": "Caniogan River, Calumpit",
+      "level": 3.2,
+      "status": "CRITICAL",
+      "time": "09/01/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.2,
+        "alarm": 1.8,
+        "critical": 2.3
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    }
+  ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
       "ok": true,
-      "river_records": 0,
-      "normalized_readings": 0,
-      "unmatched_records": [],
+      "river_records": 6,
+      "normalized_readings": 2,
+      "unmatched_records": [
+        {
+          "stationName": "Meyto Bridge, Meyto, Calumpit, Bulacan",
+          "row": {
+            "station": "Meyto Bridge, Meyto, Calumpit, Bulacan",
+            "actual_level": "New alerts 2.95 meters",
+            "alert": "1.0 meter",
+            "alarm": "2.0 meters",
+            "critical": "3.0 meters",
+            "date": "09/01/2026"
+          }
+        },
+        {
+          "stationName": "Paralaya, Candaba, Pampanga",
+          "row": {
+            "station": "Paralaya, Candaba, Pampanga",
+            "actual_level": "New alerts 6.25 meters",
+            "alert": "3.50 meters",
+            "alarm": "4.50 meters",
+            "critical": "5.0 meters",
+            "date": "09/01/2026"
+          }
+        },
+        {
+          "stationName": "San Agustin Bridge, Arayat, Pampanga",
+          "row": {
+            "station": "San Agustin Bridge, Arayat, Pampanga",
+            "actual_level": "New alerts 8.75 meters",
+            "alert": "5.0 meters",
+            "alarm": "6.0 meters",
+            "critical": "8.50 meters",
+            "date": "09/01/2026"
+          }
+        },
+        {
+          "stationName": "Sulipan Bridge PAGASA",
+          "row": {
+            "station": "Sulipan Bridge PAGASA",
+            "actual_level": "New alerts 4.33 meters",
+            "alert": "2.60 meters",
+            "alarm": "3.20 meters",
+            "critical": "3.80 meters",
+            "date": "09/01/2026"
+          }
+        }
+      ],
       "dams": [
         {
           "dam": "Angat Dam",
-          "current_level": "192.83 meters",
+          "current_level": "201.33 meters",
           "normal_level": "212.00 meters",
           "spilling_level": "-",
-          "date": "08/27/2026"
+          "date": "09/01/2026"
         },
         {
           "dam": "Bustos Dam",
-          "current_level": "15.90 meters",
+          "current_level": "15.68 meters",
           "normal_level": "-",
           "spilling_level": "17.70 meters",
-          "date": "08/27/2026"
+          "date": "09/01/2026"
         },
         {
           "dam": "Ipo Dam",
-          "current_level": "99.89 meters",
+          "current_level": "100.93 meters",
           "normal_level": "-",
           "spilling_level": "101.00 meters",
-          "date": "08/27/2026"
+          "date": "09/01/2026"
         }
       ],
-      "fetched_at": "2026-08-31T23:23:19.949396+00:00",
+      "fetched_at": "2026-09-01T01:55:02.650768+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
