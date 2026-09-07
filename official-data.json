@@ -1,12 +1,73 @@
 {
-  "generatedAt": "2026-09-07T00:06:24.795773+00:00",
-  "readings": [],
+  "generatedAt": "2026-09-07T04:32:43.946014+00:00",
+  "readings": [
+    {
+      "stationId": 4,
+      "stationName": "Alejo Bridge, Bustos",
+      "level": 1.5,
+      "status": "NORMAL",
+      "time": "09/07/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 10,
+      "stationName": "Caniogan River, Calumpit",
+      "level": 2.5,
+      "status": "CRITICAL",
+      "time": "09/07/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.2,
+        "alarm": 1.8,
+        "critical": 2.3
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 18,
+      "stationName": "Fabian Cadiz Bridge, City of SJDM",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "09/07/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 17,
+      "stationName": "Poblacion Bridge, Sta. Maria",
+      "level": 0.15,
+      "status": "NORMAL",
+      "time": "09/07/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.5,
+        "alarm": 2.5,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    }
+  ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
       "ok": true,
-      "river_records": 0,
-      "normalized_readings": 0,
+      "river_records": 4,
+      "normalized_readings": 4,
       "unmatched_records": [],
       "dams": [
         {
@@ -31,7 +92,7 @@
           "date": "09/01/2026"
         }
       ],
-      "fetched_at": "2026-09-07T00:06:24.795702+00:00",
+      "fetched_at": "2026-09-07T04:32:43.945793+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
