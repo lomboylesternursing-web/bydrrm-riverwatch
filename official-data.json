@@ -1,11 +1,38 @@
 {
-  "generatedAt": "2026-09-08T13:44:09.944910+00:00",
+  "generatedAt": "2026-09-08T17:31:14.747980+00:00",
   "readings": [],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
-      "ok": false,
-      "error": "<urlopen error timed out>"
+      "ok": true,
+      "river_records": 0,
+      "normalized_readings": 0,
+      "unmatched_records": [],
+      "dams": [
+        {
+          "dam": "Angat Dam",
+          "current_level": "206.74 meters",
+          "normal_level": "212.00 meters",
+          "spilling_level": "-",
+          "date": "09/08/2026"
+        },
+        {
+          "dam": "Bustos Dam",
+          "current_level": "15.91 meters",
+          "normal_level": "-",
+          "spilling_level": "17.70 meters",
+          "date": "09/08/2026"
+        },
+        {
+          "dam": "Ipo Dam",
+          "current_level": "99.99 meters",
+          "normal_level": "-",
+          "spilling_level": "101.00 meters",
+          "date": "09/08/2026"
+        }
+      ],
+      "fetched_at": "2026-09-08T17:31:14.747914+00:00",
+      "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
       "name": "DOST-ASTI PhilSensors",
