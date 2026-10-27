@@ -1,37 +1,132 @@
 {
-  "generatedAt": "2026-10-26T22:58:58.803963+00:00",
-  "readings": [],
+  "generatedAt": "2026-10-27T01:51:03.563069+00:00",
+  "readings": [
+    {
+      "stationId": 4,
+      "stationName": "Alejo Bridge, Bustos",
+      "level": 0.45,
+      "status": "NORMAL",
+      "time": "10/27/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 10,
+      "stationName": "Caniogan River, Calumpit",
+      "level": 0.25,
+      "status": "NORMAL",
+      "time": "10/27/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.2,
+        "alarm": 1.8,
+        "critical": 2.3
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 18,
+      "stationName": "Fabian Cadiz Bridge, City of SJDM",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "10/27/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 2.0,
+        "alarm": 3.0,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    },
+    {
+      "stationId": 17,
+      "stationName": "Poblacion Bridge, Sta. Maria",
+      "level": 0.0,
+      "status": "NORMAL",
+      "time": "10/27/2026",
+      "observationPrecision": "date",
+      "source": "Bulacan PDRRMO",
+      "officialThresholds": {
+        "alert": 1.5,
+        "alarm": 2.5,
+        "critical": 4.0
+      },
+      "note": "Status is derived only from PDRRMO-published Alert/Alarm/Critical thresholds."
+    }
+  ],
   "sources": [
     {
       "name": "Bulacan PDRRMO",
       "ok": true,
-      "river_records": 0,
-      "normalized_readings": 0,
-      "unmatched_records": [],
+      "river_records": 7,
+      "normalized_readings": 4,
+      "unmatched_records": [
+        {
+          "stationName": "Bulusan River Bank",
+          "row": {
+            "station": "Bulusan River Bank",
+            "actual_level": "New alerts 0.0 meter",
+            "alert": "0.30 meter",
+            "alarm": "0.60 meter",
+            "critical": "0.90 meter",
+            "date": "10/27/2026"
+          }
+        },
+        {
+          "stationName": "Meyto Bridge, Meyto, Calumpit, Bulacan",
+          "row": {
+            "station": "Meyto Bridge, Meyto, Calumpit, Bulacan",
+            "actual_level": "New alerts 0.0 meter",
+            "alert": "1.0 meter",
+            "alarm": "2.0 meters",
+            "critical": "3.0 meters",
+            "date": "10/27/2026"
+          }
+        },
+        {
+          "stationName": "Sulipan Bridge, Apalit, Pampanga",
+          "row": {
+            "station": "Sulipan Bridge, Apalit, Pampanga",
+            "actual_level": "New alerts 0.20 meter",
+            "alert": "1.0 meter",
+            "alarm": "2.0 meters",
+            "critical": "3.0 meters",
+            "date": "10/27/2026"
+          }
+        }
+      ],
       "dams": [
         {
           "dam": "Angat Dam",
-          "current_level": "209.19 meters",
+          "current_level": "209.03 meters",
           "normal_level": "212.00 meters",
           "spilling_level": "-",
-          "date": "10/26/2026"
+          "date": "10/27/2026"
         },
         {
           "dam": "Bustos Dam",
-          "current_level": "15.90 meters",
+          "current_level": "16.02 meters",
           "normal_level": "-",
           "spilling_level": "17.70 meters",
-          "date": "10/26/2026"
+          "date": "10/27/2026"
         },
         {
           "dam": "Ipo Dam",
-          "current_level": "100.55 meters",
+          "current_level": "100.84 meters",
           "normal_level": "-",
           "spilling_level": "101.00 meters",
-          "date": "10/26/2026"
+          "date": "10/27/2026"
         }
       ],
-      "fetched_at": "2026-10-26T22:58:58.803883+00:00",
+      "fetched_at": "2026-10-27T01:51:03.562760+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
