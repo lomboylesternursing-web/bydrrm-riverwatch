@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T01:41:54.964482+00:00",
+  "generatedAt": "2026-10-28T07:24:44.310436+00:00",
   "readings": [
     {
       "stationId": 4,
@@ -95,27 +95,27 @@
       "dams": [
         {
           "dam": "Angat Dam",
-          "current_level": "209.03 meters",
+          "current_level": "208.94 meters",
           "normal_level": "212.00 meters",
           "spilling_level": "-",
-          "date": "10/27/2026"
+          "date": "10/28/2026"
         },
         {
           "dam": "Bustos Dam",
-          "current_level": "16.02 meters",
+          "current_level": "15.95 meters",
           "normal_level": "-",
           "spilling_level": "17.70 meters",
-          "date": "10/27/2026"
+          "date": "10/28/2026"
         },
         {
           "dam": "Ipo Dam",
-          "current_level": "100.84 meters",
+          "current_level": "100.60 meters",
           "normal_level": "-",
           "spilling_level": "101.00 meters",
-          "date": "10/27/2026"
+          "date": "10/28/2026"
         }
       ],
-      "fetched_at": "2026-10-28T01:41:54.964205+00:00",
+      "fetched_at": "2026-10-28T07:24:44.310173+00:00",
       "message": "River readings, when present, use PDRRMO-published thresholds only."
     },
     {
